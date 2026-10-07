@@ -1,0 +1,9 @@
+{
+  "snapshot": "2026-10-06_23-57",
+  "created_at": "2026-10-06T23:57:09-04:00",
+  "generator": "proc_music.py",
+  "version": "3  # bump when the synth changes (invalidates old recipes)",
+  "sha256": "1c1e2b2a6707a51084369c4ca9d02b24da4daf4a56e89c9042abb5f4a58d679a",
+  "python_version": "3.14.7",
+  "note": "migrate v3 (432 Hz, detune, lowpass+softclip) into its own repo"
+}

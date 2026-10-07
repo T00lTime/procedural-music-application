@@ -1,0 +1,19 @@
+# `.gitignore`
+
+# local-only mirror of the newest snapshot (never committed)
+latest/
+
+# generated audio — the *recipe* is the source of truth, not the WAV
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.aac
+
+# python bytecode
+__pycache__/
+*.pyc
+
+# history-prune marker (if this repo ever grows the agent snapshot tooling)
+.history-prune-state
