@@ -1,0 +1,9 @@
+{
+  "snapshot": "2026-10-07_00-31",
+  "created_at": "2026-10-07T00:31:55-04:00",
+  "generator": "proc_music.py",
+  "version": "4",
+  "sha256": "be820f62d54194bbe6bd24cde62222fc6063f6cd7479c46c7c97384f47cb5294",
+  "python_version": "3.14.7",
+  "note": "v4: per-voice resonant filter envelopes, real voices (additive pad / pluck / warm bass), velocity+timing humanization, stereo space, air shelf, end fade"
+}
