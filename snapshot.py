@@ -34,7 +34,7 @@ def sha256(path: Path) -> str:
 def script_version(path: Path) -> str | None:
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.startswith("VERSION"):
-            return line.split("=", 1)[1].strip()
+            return line.split("=", 1)[1].split("#", 1)[0].strip()
     return None
 
 
